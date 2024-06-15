@@ -1,5 +1,6 @@
 # chat
-Simple plug & play real-time JavaScript chat implemented using Socket.io.
+Simple plug & play real-time JavaScript chat implemented using Socket.io - forked
+for medical environment use from m1k1o/chat. Thanks to m1ko for all the hard work!
 
 Where simplicity meets usability:
 
