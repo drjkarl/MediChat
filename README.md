@@ -1,5 +1,5 @@
 # Medichat
-Simple plug & play real-time JavaScript Medichat implemented using Socket.io.
+Simple plug & play real-time JavaScript chat for medical environment implemented using Socket.io.
 
 Where simplicity meets usability:
 
@@ -9,6 +9,7 @@ Where simplicity meets usability:
 * Only one room - you can't create any other rooms or write PM to others.
 * Files sharing is possible - without storing any data on server.
 * Emojis - just a few of them.
+* Preset Medical Terminology
 
 ![screenshot](https://raw.githubusercontent.com/m1k1o/chat/master/screenshot.png)
 
