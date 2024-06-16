@@ -1,5 +1,5 @@
-# chat
-Simple plug & play real-time JavaScript chat implemented using Socket.io.
+# Medichat
+Simple plug & play real-time JavaScript Medichat implemented using Socket.io.
 
 Where simplicity meets usability:
 
