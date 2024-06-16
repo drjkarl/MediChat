@@ -5,7 +5,7 @@ Where simplicity meets usability:
 
 * No user accounts - just enter nickname and join.
 * No history saved by default - only logged-in users can see recent history.
-* No configuration.
+* No configuration. Dead simple.
 * Only one room - you can't create any other rooms or write PM to others.
 * Files sharing is possible - without storing any data on server.
 * Emojis - just a few of them.
