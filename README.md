@@ -1,15 +1,17 @@
-# chat
+# Medichat
 Simple plug & play real-time JavaScript chat implemented using Socket.io - forked
 for medical environment use from m1k1o/chat. Thanks to m1ko for all the hard work!
+
 
 Where simplicity meets usability:
 
 * No user accounts - just enter nickname and join.
 * No history saved by default - only logged-in users can see recent history.
-* No configuration.
+* No configuration. Dead simple.
 * Only one room - you can't create any other rooms or write PM to others.
 * Files sharing is possible - without storing any data on server.
 * Emojis - just a few of them.
+* Preset Medical Terminology
 
 ![screenshot](https://raw.githubusercontent.com/m1k1o/chat/master/screenshot.png)
 
