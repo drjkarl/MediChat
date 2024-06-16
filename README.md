@@ -30,7 +30,7 @@ docker run -d \
 version: "3"
 services:
   chat:
-    image: drjkarl/medichat:latest
+    image: drjkarl/medichat:master
     restart: unless-stopped
     ports:
       - 80:80
