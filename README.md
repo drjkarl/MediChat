@@ -19,9 +19,9 @@ Where simplicity meets usability:
 
 ```sh
 docker run -d \
-	--name chat \
+	--name medichat \
 	-p 80:80 \
-	drjkarl/chat:latest
+	drjkarl/medichat:master
 ```
 
 ## docker-compose
@@ -30,7 +30,7 @@ docker run -d \
 version: "3"
 services:
   chat:
-    image: drjkarl/chat:latest
+    image: drjkarl/medichat:latest
     restart: unless-stopped
     ports:
       - 80:80
