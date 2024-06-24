@@ -16,7 +16,7 @@ a {
 
 #offline{
 	padding: 20px 10px;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 #offline .big{
@@ -82,7 +82,7 @@ a {
 	padding-left: 12px;
 	display: block;
 	color: rgba(0, 0, 0, .40);
-	font-size: 16px;
+	font-size: 20px;
 	clear: both;
 }
 
@@ -275,7 +275,7 @@ a {
 	margin: 0;
 	color: #333;
 	background-color: #fff;
-	font-size: 16px;
+	font-size: 20px;
 	box-shadow: none;
 	/*min-height: 100px;*/
 	height: 39px;
