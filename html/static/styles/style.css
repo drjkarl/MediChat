@@ -239,7 +239,7 @@ a {
 	margin: 0;
 	padding: 0;
 	font-size: 25px;
-	overflow: 1;
+	overflow: auto;
 }
 
 #quick li{
