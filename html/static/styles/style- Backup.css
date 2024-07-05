@@ -16,11 +16,11 @@ a {
 
 #offline{
 	padding: 20px 10px;
-	font-size: 14px;
+	font-size: 20px;
 }
 
 #offline .big{
-	font-size: 32px;
+	font-size: 20px;
 	line-height: 32px;
 }
 
@@ -82,7 +82,7 @@ a {
 	padding-left: 12px;
 	display: block;
 	color: rgba(0, 0, 0, .40);
-	font-size: 12px;
+	font-size: 20px;
 	clear: both;
 }
 
@@ -228,7 +228,7 @@ a {
 	color: #666;
 }
 
-#quick {
+#emic {
 	position: fixed;
 	right: 10px;
 	/*bottom: 150px;*/
@@ -238,18 +238,18 @@ a {
 	height: 210px;
 	margin: 0;
 	padding: 0;
-	font-size: 0;
+	font-size: 25px;
 	overflow: auto;
 }
 
-#quick li{
+#emic li{
 	display: inline-block;
 	list-style-type: none;
 	padding: 5px;
 	cursor: pointer;
 }
 
-#quick li:hover{
+#emic li:hover{
 	box-shadow: 0px 0px 5px 1px white;
 }
 
@@ -258,6 +258,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	overflow-y: scroll;
+	font-size: 20px;
 }
 
 .chat-form	{
@@ -275,7 +276,7 @@ a {
 	margin: 0;
 	color: #333;
 	background-color: #fff;
-	font-size: 14px;
+	font-size: 20px;
 	box-shadow: none;
 	/*min-height: 100px;*/
 	height: 39px;
@@ -297,14 +298,17 @@ a {
 	border-radius: 0;
 }
 
-#quick_btn{
+#emic_btn {
+	float: left;
+	margin: 0;
+	position: absolute;
+	left: 10px;
+	bottom: 40px;
+	margin-top: 35px;
+	z-index: 100;
 	background: none;
-	color: white;
-	text-transform: uppercase;
-	padding: 5px;
-	margin: 0 10px 0 0;
-	border: 1px solid white;
-	border-radius: 0;
+	border: none;
+	padding: 8px;
 }
 
 #users, #users li{

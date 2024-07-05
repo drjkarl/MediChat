@@ -16,24 +16,26 @@
 			<div id="offline"><span class="big">Log In</span></div>
 			<ul id="msgs" class="msgs"></ul>
 			<ul id="typing" class="msgs"></ul>
-			<ul id="quick" style="display:none;"></ul>
+			<ul id="emic" style="display:none;"></ul>
 		</div>
 		<div class="chat-form">
+			<button id="emic_btn">
+				<img src="static/emic/white-smiling-face.png" width="20px" height="20px" title="White Smiling Face">
+			</button>
 			<textarea id="form_input" class="form-control" data-user-id="2" placeholder="Type something ..." rows="1"></textarea>
-			<button id="quick_btn">PreClick</button>
 			<button id="send">Send</button>
 			<ul id="users"></ul>
 		</div>
 	</div>
 
 	<script type="text/javascript" src="socket.io/socket.io.js"></script>
-	<script type="text/javascript" src="static/scripts/quick.js"></script>
+	<script type="text/javascript" src="static/scripts/emic.js"></script>
 	<script type="text/javascript" src="static/scripts/chat.js"></script>
 	<script type="text/javascript">
 		// optionally set own server where the client connects to
 		const socket = io(location.protocol + '//' + location.host, { path: location.pathname.replace(/\/$/, '') + '/socket.io/' })
 
-		Quick.init();
+		Emic.init();
 		Chat.init(socket);
 	</script>
 </body>
